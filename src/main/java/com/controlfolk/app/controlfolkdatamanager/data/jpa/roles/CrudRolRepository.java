@@ -1,6 +1,6 @@
 package com.controlfolk.app.controlfolkdatamanager.data.jpa.roles;
 
-import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface CrudRolRepository extends ReactiveCrudRepository<RolEntity,String> {
+public interface CrudRolRepository extends CrudRepository<RolEntity,String> {
 }
