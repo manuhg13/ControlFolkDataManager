@@ -3,7 +3,6 @@ package com.controlfolk.app.controlfolkdatamanager.data.jpa.learn;
 import com.controlfolk.app.controlfolkdatamanager.core.models.Learn;
 import com.controlfolk.app.controlfolkdatamanager.core.models.Subject;
 import com.controlfolk.app.controlfolkdatamanager.core.ports.LearnRepository;
-import com.controlfolk.app.controlfolkdatamanager.data.jpa.subjects.SubjectEntity;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
