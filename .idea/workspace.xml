@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d48d2d0-6a7e-4ab2-9941-90b57e54afcd" name="Changes" comment="add: first commit" />
+    <list default="true" id="2d48d2d0-6a7e-4ab2-9941-90b57e54afcd" name="Changes" comment="add: first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlfolk/app/controlfolkdatamanager/api/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "dfeb0507bbf67cf1908e3f2645e50762",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +75,7 @@
       <updated>1686694618813</updated>
       <workItem from="1686694619810" duration="342000" />
       <workItem from="1686695091267" duration="37000" />
+      <workItem from="1686756874013" duration="784000" />
     </task>
     <task id="LOCAL-00001" summary="add: first commit">
       <created>1686694924617</created>
