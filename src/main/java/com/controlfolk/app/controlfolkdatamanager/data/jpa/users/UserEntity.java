@@ -4,6 +4,7 @@ import com.controlfolk.app.controlfolkdatamanager.core.models.User;
 import com.controlfolk.app.controlfolkdatamanager.data.jpa.roles.RolEntity;
 import lombok.*;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
@@ -31,6 +32,7 @@ public class UserEntity {
 
     private LocalDate date;
 
+    @DBRef
     private RolEntity rol;
 
     public static UserEntity of(User user, RolEntity rol,LocalDate date){
