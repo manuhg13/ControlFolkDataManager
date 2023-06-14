@@ -31,4 +31,12 @@ public class UsersRepositoryImpl implements UsesRepository {
                 date
         )))).map(UserEntity::toModel);
     }
+
+    @Override
+    public Mono<Void> delete(String id) {
+        return Mono.defer(()->{
+            crudUserRepository.deleteById(id);
+            return Mono.empty();
+        });
+    }
 }

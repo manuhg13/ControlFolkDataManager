@@ -11,4 +11,6 @@ public interface UsersService {
     Mono<User> findById(String id);
 
     Mono<User> create(User user, LocalDate date , Rol rol);
+
+    Mono<Void> delete(String id);
 }
