@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class SubjectRepositoryImpl implements SubjectRepository {
 
-    private CrudSubjectRepository crudSubjectRepository;
+    private final CrudSubjectRepository crudSubjectRepository;
     @Override
     public Mono<Subject> create(Subject subject) {
         return Mono.defer(()->Mono.just(crudSubjectRepository.save(SubjectEntity.of(subject))))
