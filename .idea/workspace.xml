@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d48d2d0-6a7e-4ab2-9941-90b57e54afcd" name="Changes" comment="add: first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlfolk/app/controlfolkdatamanager/api/security/SecurityConfiguration.java" afterDir="false" />
+    <list default="true" id="2d48d2d0-6a7e-4ab2-9941-90b57e54afcd" name="Changes" comment="feat(security): add security config OAuth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controlfolk/app/controlfolkdatamanager/api/response/BaseResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
       <updated>1686694618813</updated>
       <workItem from="1686694619810" duration="342000" />
       <workItem from="1686695091267" duration="37000" />
-      <workItem from="1686756874013" duration="784000" />
+      <workItem from="1686756874013" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="add: first commit">
       <created>1686694924617</created>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686695103491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(security): add security config OAuth">
+      <created>1686757693879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686757693879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +120,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="add: first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: first commit" />
+    <MESSAGE value="feat(security): add security config OAuth" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(security): add security config OAuth" />
   </component>
 </project>
