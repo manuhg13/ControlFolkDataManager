@@ -23,7 +23,7 @@ public class Learn {
 
     private double qualification;
 
-    public static Learn of(String id, User user, Subject subject, double qualification) {
-        return new Learn(id,user,subject,qualification);
-    }
+//    public static Learn of(String id, User user, Subject subject, double qualification) {
+//        return new Learn(id,user,subject,qualification);
+//    }
 }
