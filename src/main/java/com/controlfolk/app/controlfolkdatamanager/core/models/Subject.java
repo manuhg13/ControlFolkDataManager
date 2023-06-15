@@ -16,8 +16,8 @@ public class Subject {
 
     private String name;
 
-    public static Subject of(String id,String name){
-        return new Subject(id,name);
-    }
+//    public static Subject of(String id,String name){
+//        return new Subject(id,name);
+//    }
 
 }

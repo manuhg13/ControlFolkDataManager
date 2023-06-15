@@ -30,7 +30,7 @@ public class User {
 
     private Rol rol;
 
-    public static User of(String id, String name, String surname, String email, String password, String username, LocalDate date, Rol rol) {
-        return new User(id,name,surname,email,password,username,date,rol);
-    }
+//    public static User of(String id, String name, String surname, String email, String password, String username, LocalDate date, Rol rol) {
+//        return new User(id,name,surname,email,password,username,date,rol);
+//    }
 }

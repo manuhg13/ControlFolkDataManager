@@ -16,8 +16,8 @@ public class Teach {
 
     private Subject subject;
 
-    public static Teach of(String id,User user,Subject subject){
-        return new Teach(id,user,subject);
-    }
+//    public static Teach of(String id,User user,Subject subject){
+//        return new Teach(id,user,subject);
+//    }
 
 }
